@@ -103,7 +103,7 @@ warnings.filterwarnings('ignore')
 path = '/Users/zhangyihui/Data/LendingClub/accepted.csv'
 
 # Retrieve dataset
-df = pd.read_csv(path)[0:50000]
+df = pd.read_csv(path)
 df.head()
 
 # %%
